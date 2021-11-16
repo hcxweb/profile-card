@@ -49,20 +49,24 @@ body {
 .image-bg {width: 100%;}
 
 .profile-photo {
-    width: 9.6rem;
-    height: 9.6rem;
+    width: 10rem;
+    height: 10rem;
     top: 9rem;
     border: 5px solid #fff;
     border-radius: 50%;
 }
 
-.person {top: 21rem;}
+.person {
+    top: 21rem;
+    font-size: 1.8rem;
+}
 
 .name {
-    font-weight: 700;
     color: var(--Very-dark-desaturated-blue);
     margin-right: .3rem;
 }
+
+.age {font-weight: 400;}
 
 .location {
     top: 24rem;
@@ -92,7 +96,7 @@ hr {
 .stats-num {
     font-weight: 700;
     color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 1px;
+    margin-bottom: 3px;
 }
 
 .stats-obj {
